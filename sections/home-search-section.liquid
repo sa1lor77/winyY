@@ -1,0 +1,300 @@
+{%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+
+      .section-{{ section.id }}.home-search {position:relative;}
+      .section-{{ section.id }}.home-search:before{content:'';   {%- if section.settings.home_search_bg != blank -%} background:url({{ section.settings.home_search_bg | image_url: width: 1920}}); {% else %} background: url('{{ 'background.svg' | asset_url }}'); background-size: cover; background-position: center;   {%- endif -%} position:absolute;top:0;background-repeat: no-repeat;
+      background-size: cover; width:100%;height:100%;z-index:1; left:0;}
+
+    .home-search .search-wrapper{position:relative;}
+    .home-search .search-wrapper .search__button{color: var(--gradient-base-accent-1);
+      width: 128px;
+      height: 128px;
+      min-width: 128px;
+      border-radius: 50%;
+      background: rgba(var(--color-base-solid-button-labels));
+      position:relative;top:0; margin-left: 25px;font-weight: 500;
+      text-transform: capitalize;
+      font-size: 24px;
+  }
+    /* .home-search .search-wrapper .search__button:hover{ background-color: var(--gradient-base-accent-1); color: var(--gradient-base-background-1);} */
+    .home-search .search-wrapper .field{align-items:center;}
+    .home-search .row{max-width: 835px;margin: auto;}
+    .home-search .search-wrapper .search-modal__form{max-width:100%;}
+    .home-search .search-wrapper .search__input.field__input{padding: 0 10px 10px;border: none;border-bottom: 1px solid rgba(var(--color-overlay));}
+    .home-search .search-wrapper .search__input.field__input:focus{border-bottom:1px solid rgba(var(--color-base-solid-button-labels));}
+    .home-search .search-wrapper .search__button.field__button:hover {box-shadow: 0 0 0 6px rgba(var(--color-button), 0.6);}
+    @media screen and (max-width: 480px) {
+      .home-search .search-wrapper .search__button{width:80px;height:80px;min-width:80px; font-size: 18px;}
+    }
+{%- endstyle -%}
+
+<div class="home-search color-{{ section.settings.color_scheme }} gradient{% if section.settings.title == blank %} no-heading{% endif %} {{ section.settings.custom_class_name }} section-{{ section.id }}">
+  <div class="{% if section.settings.page_full_width %} page-full-width {% else %} page-width {% endif %} {% if section.settings.page_full_width_spacing %} page-full-width_spacing {% endif %}section-{{ section.id }}-padding isolate">
+    <div class="row">
+      <div class="home-search-wrapper">
+        {%- unless section.settings.title == blank -%}
+          <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin content-align--{{ section.settings.column_alignment }}">
+            {%- if section.settings.sub_heading != blank -%}
+              <h6 class="sub-heading">{{ section.settings.sub_heading | escape }}</h6>
+            {%- endif -%}
+            {%- if section.settings.title != blank -%}
+              <h2 class="title {{ section.settings.heading_size }}">
+                {{ section.settings.title | escape }}
+              </h2>
+            {%- endif -%}
+            {%- if section.settings.description != blank -%}
+              <p class="description">{{ section.settings.description }}</p>
+            {%- endif -%}
+            {%- if section.settings.button_label != blank -%}
+              <a
+                {% if section.settings.button_link == blank %}
+                  role="link" aria-disabled="true"
+                {% else %}
+                  href="{{ section.settings.button_link }}"
+                {% endif %}
+                class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+              >
+                {{- section.settings.button_label | escape -}}
+              </a>
+            {%- endif -%}
+          </div>
+        {%- endunless -%}
+      </div>
+      <div class="search-wrapper">
+        <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
+          <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
+            <div class="field">
+              <input
+                class="search__input field__input"
+                id="{{ input_id }}"
+                type="search"
+                name="q"
+                value="{{ search.terms | escape }}"
+                placeholder="{{ 'general.search.section_search' | t }}"
+                {%- if settings.predictive_search_enabled -%}
+                  role="combobox"
+                  aria-expanded="false"
+                  aria-owns="predictive-search-results"
+                  aria-controls="predictive-search-results"
+                  aria-haspopup="listbox"
+                  aria-autocomplete="list"
+                  autocorrect="off"
+                  autocomplete="off"
+                  autocapitalize="off"
+                  spellcheck="false"
+                {%- endif -%}
+              >
+              <label class="field__label" for="{{ input_id }}">{{ 'general.search.search' | t }}</label>
+              <input type="hidden" name="options[prefix]" value="last">
+              <button
+                type="reset"
+                class="reset__button field__button{% if search.terms == blank %} hidden{% endif %}"
+                aria-label="{{ 'general.search.reset' | t }}"
+              >
+                <svg class="icon icon-close" aria-hidden="true" focusable="false">
+                  <use xlink:href="#icon-reset">
+                </svg>
+              </button>
+              <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
+                <!--
+                  <svg class="icon icon-search" aria-hidden="true" focusable="false">
+                    <use href="#icon-search">
+                  </svg>
+                -->
+                {{ 'general.search.search' | t }}
+              </button>
+            </div>
+
+            <!--
+              {%- if settings.predictive_search_enabled -%}
+                <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
+                  <div class="predictive-search__loading-state">
+                    <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                      <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                    </svg>
+                  </div>
+                </div>
+
+                <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+              {%- endif -%}
+            -->
+          </form>
+        </predictive-search>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.home-search.name",
+  "class": "section section-home-search",
+  "tag": "section",
+  "settings": [
+    {
+      "type":"checkbox",
+      "id":"page_full_width",
+       "default": false,
+      "label": "t:sections.all.page_full_width.label"
+    },
+    {
+      "type":"checkbox",
+      "id":"page_full_width_spacing",
+       "default": false,
+      "label": "t:sections.all.page_full_width_spacing.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "home_search_bg",
+      "label": "t:sections.home-search.settings.home_search_bg.label"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Home Search",
+      "label": "t:sections.all.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading",
+      "default": "Sub Heading",
+      "label": "t:sections.all.sub_heading.label"
+    },
+     {
+      "type": "text",
+      "id": "description",
+      "default": "Use This Text To Share The Information Which You Like!.",
+      "label": "t:sections.all.description.label"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "default": "Button label",
+      "label": "t:sections.all.button_label.label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:sections.all.button_link.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_style_secondary",
+      "default": false,
+      "label": "t:sections.all.button_style_secondary.label"
+      },
+    {
+      "type": "select",
+      "id": "column_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.home-search.settings.column_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.home-search.settings.column_alignment.options__2.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.home-search.settings.column_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+     {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 35
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 35
+    },
+    {
+    "type": "header",
+    "content": "t:sections.all.custom_class_heading.content"
+    },
+    {
+    "type": "text",
+    "id": "custom_class_name",
+    "label": "t:sections.all.custom_class_name.label"
+    }
+  ],
+   "presets": [
+    {
+      "name": "t:sections.home-search.presets.name"
+    }
+   ]
+}
+{% endschema %}

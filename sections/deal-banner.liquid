@@ -1,0 +1,736 @@
+{{ 'section-deal-banner.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+    {%  unless section.settings.before_image == blank %}
+     #Banner-{{ section.id }}.custom-second-banner::before { background:var(--gradient-background);}
+      {% endunless %}
+     .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.50 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.50 | round: 0 }}px;
+    }
+     @media screen and (min-width: 576px) and (max-width: 749px){
+     .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+      }
+     }
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+
+    {%- if section.settings.enable_two_column_section -%}
+      #Banner-{{ section.id }}.deal-banner .deal-banner-wrapper .banner__media{position:relative;overflow:visible;}
+      #Banner-{{ section.id }}.deal-banner .deal-banner-wrapper{display: flex;justify-content: space-between;flex-direction: row-reverse;}
+    {%- endif -%}
+    {% comment %} {%- if section.settings.secoundary_image -%}
+      #Banner-{{ section.id }}.deal-banner .banner__media.bg-image:before{content:'';background:url({{ section.settings.secoundary_image | image_url: width: 1920}});position:absolute;left:0;top:0;    background-repeat: no-repeat;
+      background-size: auto;width:100%;height:100%;z-index:1;}
+      #Banner-{{ section.id }}.deal-banner-section.deal-banner .banner__media.bg-image:before{width: 310px;height: 368px;left: 10%;top: 50%;transform: translate(-50%, -50%);}
+
+      #Banner-{{ section.id }}.deal-banner-section.deal-banner .banner__media.bg-image img{position:relative;object-fit: contain;width: auto;}
+    {%- endif -%}   {% endcomment %}
+        @media screen and (max-width: 1199px) {
+        {%- if section.settings.enable_two_column_section -%}
+          #Banner-{{ section.id }}.deal-banner .deal-banner-wrapper{flex-direction:column;}
+          #Banner-{{ section.id }}.deal-banner .deal-banner-wrapper .banner__media{height:100%;min-height:100%;}
+         {%- endif -%}
+          #Banner-{{ section.id }}.deal-banner-section.deal-banner .banner__media.bg-image:before{left:-18%;}
+        }
+       @media screen and (max-width: 576px) {
+          #Banner-{{ section.id }}.deal-banner-section.deal-banner .banner__media.bg-image:before {left: 0%;transform: none;top:unset;bottom:0;background-size:contain;}
+       }
+       @media screen and (max-width: 450px) {
+        #Banner-{{ section.id }}.deal-banner-section.deal-banner .banner__media.bg-image:before {width: 290px;height: 250px;}
+       }
+  .deal-banner .swiper-scrollbar div{display: block !important;}
+  .deal-banner .swiper-pagination-progressbar.swiper-pagination-horizontal{bottom: -76px; top:unset;max-width: 210px;margin: auto;left: 50%;transform: translateX(-50%);width: 100%;height: 3px;}
+  .deal-banner .featured-swiper{position: relative;}
+  .deal-banner .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{top: 0;height: 3px;background: rgba(var(--color-foreground),1);}
+  .deal-banner .deal-banner-wrapper{position:relative;}
+  .deal-banner .deal-banner-wrapper:before{
+    content:'';
+    background:url('{{ section.settings.before_image | image_url: width: 1920 }}');
+    width: 447px;
+    height: 1190px;
+    position: absolute;
+    background-repeat: no-repeat;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+  @media screen and (max-width: 480px) {
+  .deal-banner .deal-banner-wrapper:before{ left: 0; transform: none; background-size: contain; width: 100%; height: 750px; }
+  }
+{%- endstyle -%}
+
+<div
+  id="Banner-{{ section.id }}"
+  class="deal-banner banner {{ section.settings.custom_class_name }} banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
+>
+  <div class="{% if section.settings.page_full_width %} page-full-width {% else %} page-width {% endif %} {% if section.settings.page_full_width_spacing %} page-full-width_spacing {% endif %}section-{{ section.id }}-padding isolate section-{{ section.id }}-padding">
+    <div class="row">
+      <div class="deal-banner-wrapper">
+        <div class="banner-slider">
+          {%- if section.settings.image != blank -%}
+            <div class="banner__media bg-image media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+              <img
+                srcset="
+                  {%- if section.settings.image.width >= 375 -%}{{ section.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
+                  {%- if section.settings.image.width >= 550 -%}{{ section.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
+                  {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if section.settings.image.width >= 1100 -%}{{ section.settings.image | image_url: width: 1100 }} 1100w,{%- endif -%}
+                  {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {%- if section.settings.image.width >= 1780 -%}{{ section.settings.image | image_url: width: 1780 }} 1780w,{%- endif -%}
+                  {%- if section.settings.image.width >= 2000 -%}{{ section.settings.image | image_url: width: 2000 }} 2000w,{%- endif -%}
+                  {%- if section.settings.image.width >= 3000 -%}{{ section.settings.image | image_url: width: 3000 }} 3000w,{%- endif -%}
+                  {%- if section.settings.image.width >= 3840 -%}{{ section.settings.image | image_url: width: 3840 }} 3840w,{%- endif -%}
+                  {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+                "
+                sizes="{% if section.settings.image_2 != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image_2 != blank %}50vw{% else %}100vw{% endif %}"
+                src="{{ section.settings.image | image_url: width: 1500 }}"
+                loading="lazy"
+                alt="{{ section.settings.image.alt | escape }}"
+                width="{{ section.settings.image.width }}"
+                height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
+                {% if section.settings.image_2 != blank %}
+                  class="banner__media-image-half"
+                {% endif %}
+              >
+            </div>
+          {% else %}
+            <div class="banner__media bg-image media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+              {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg banner__media-image-half' }}
+            </div>
+          {% endif %}
+          <client-slider class="team-section-slider  {% if section.settings.banner_style != 'grid' %}{{ section.settings.banner_style }} {% endif %} {% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}">
+            <div data-slider-options='{"loop": "1","desktop": "1", "tablet": "1","mobile": "1","auto_play": "true"}'>
+              <div class="swiper" data-client-slider>
+                <div class="swiper-wrapper">
+                  {%- for block in section.blocks -%}
+                    {%- case block.type -%}
+                      {%- when 'clients' -%}
+                        <div class="swiper-slide {% if block.settings.reverse_column %}reverse-columns{% endif %}">
+                          <div class="quote-icon">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="64"
+                              height="50"
+                              viewBox="0 0 64 50"
+                              fill="none"
+                            >
+                              <g clip-path="url(#clip0_530_31)">
+                                <path d="M63.2108 22.0606C63.2108 40.4552 53.666 50 35.2723 50V36.7571C42.6355 36.7571 47.4716 33.6599 49.2417 27.9394L35.2718 27.9385V0H63.2108V22.0606ZM27.9394 22.0606C27.9394 40.4552 18.3625 50 0 50V36.7571C7.36409 36.7571 12.2002 33.6599 13.9703 27.9394L0 27.9385V0H27.9394V22.0606Z" fill="#2D2D2D"/>
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_530_31">
+                                  <rect width="63.2108" height="50" fill="currentcolor"/>
+                                </clipPath>
+                              </defs>
+                            </svg>
+                          </div>
+                          <div>{{ block.settings.client_text }}</div>
+                          <div class="author-sign">
+                            {% if block.settings.signature_image != blank %}
+                              <img
+                                src="{{ block.settings.signature_image | image_url: width: 200 }}"
+                                width="205"
+                                height="100"
+                                loading="lazy"
+                              >
+                            {% else %}
+                              {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
+                              {%- assign placeholder_image = 'hero-apparel-' | append: placeholder_image_index -%}
+                              {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}
+                            {% endif %}
+                          </div>
+                        </div>
+                    {% endcase %}
+                  {% endfor %}
+                </div>
+                {% if section.settings.swiper_navigation %}
+                  <div class="swiper-button-next"><span></span></div>
+                  <div class="swiper-button-prev"><span></span></div>
+                {% endif %}
+              </div>
+            </div>
+          </client-slider>
+          {% if section.settings.enable_video %}
+            <div class="video-icon-button">
+              <div id="modal" class="modal"></div>
+              <div class="video-play-icon">
+                <div
+                  class="watch-more btn-close-watch-more video__btn-play"
+                  data-type="youtube"
+                  data-id="{{ section.settings.video_url.id }}"
+                  data-autoplay="true"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 50 100"
+                    style="enable-background:new 0 0 50 100;"
+                    xml:space="preserve"
+                  >
+                    <polygon points="1,99 49,50 1,1 "></polygon>
+                  </svg>
+                </div>
+              </div>
+              {{ section.settings.button_svg }}
+            </div>
+          {% endif %}
+          <div class="block_wrap">
+            <h3>{{ section.settings.block_txt_1 }}</h3>
+            <p>{{ section.settings.block_txt_2 }}</p>
+          </div>
+          <div class="social_links">
+            <h5 class="social_title">Share</h5>
+            <ul class="circle-social-icons">
+              {% render 'social-icons' %}
+            </ul>
+          </div>
+          {% if section.settings.horizontal_text %}
+            <p class="horizontal-text" data-text="{{ section.settings.horizontal_text }}">
+              {{ section.settings.horizontal_text }}
+            </p>
+          {% endif %}
+        </div>
+
+        <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} color-{{ section.settings.color_scheme }} gradient">
+          <div class="banner__box content-container content-container--full-width-mobile ">
+            <h6 class="banner__sub_heading">
+              {{ section.settings['sub-heading'] }}
+            </h6>
+            <div class="banner__heading {{ section.settings.heading_size }}">
+              {{ section.settings.heading }}
+            </div>
+            <div class="banner__text">
+              {{ section.settings.text }}
+            </div>
+            {% if section.settings.deal_end_date != blank %}
+              <div class="deals-counter">
+                <div class="deal-clock lof-clock-timer-detail4"></div>
+                {% assign dealTime = section.settings.deal_end_date | date: '%d %b %Y' %}
+                <div class="product-deal-count" data-end-time="{{ dealTime }}">
+                  <div class="notice"></div>
+                  <div class="deal-clock">
+                    <ul>
+                      <li class="days"></li>
+                      <li class="hours"></li>
+                      <li class="minutes"></li>
+                      <li class="seconds"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            <div class="button-client">
+              <div class="banner__buttons{% if section.settings.button_label_1 != blank and section.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}">
+                {%- if section.settings.button_label_1 != blank -%}
+                  <a
+                    {% if section.settings.button_link_1 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ section.settings.button_link_1 }}"
+                    {% endif %}
+                    class="button{% if section.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                  >
+                    {{- section.settings.button_label_1 | escape -}}
+                  </a>
+                {%- endif -%}
+                {%- if section.settings.button_label_2 != blank -%}
+                  <a
+                    {% if section.settings.button_link_2 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ section.settings.button_link_2 }}"
+                    {% endif %}
+                    class="button{% if section.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                  >
+                    {{- section.settings.button_label_2 | escape -}}
+                  </a>
+                {%- endif -%}
+              </div>
+              <div class="client_div">
+                {% if section.settings.client_image != blank %}
+                  <img
+                    src="{{ section.settings.client_image | image_url: width: 150 }}"
+                    width="150"
+                    height="150"
+                    loading="lazy"
+                  >
+                {% else %}
+                  {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                <p>{{ section.settings.client_text }}</p>
+              </div>
+            </div>
+            <video-slider class="team-section-slider  {% if section.settings.banner_style != 'grid' %}{{ section.settings.banner_style }} {% endif %} {% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}">
+              <div data-slider-options='{"loop": "{%- if section.settings.centered_slide -%}1{%- else -%}2{%- endif -%}","desktop": "{{ section.settings.desktop_column }}", "tablet": "{{ section.settings.tablet_column }}","mobile": "{{ section.settings.mobile_column }}","auto_play": "{{ section.settings.auto_play }}"}'>
+                <div class="swiper" data-video-slider>
+                  <div class="swiper-wrapper">
+                    {%- for block in section.blocks -%}
+                      {%- case block.type -%}
+                        {%- when 'image' -%}
+                          <div class=" swiper-slide {% if block.settings.reverse_column %}reverse-columns{% endif %}">
+                            <div class="grid-banner-block-image">
+                              {%- if block.settings.block_button_link %}
+                                <a href="{{ block.settings.block_button_link }}" class="grid-banner-image-link">
+                              {%- endif %}
+                              {% if block.settings.block_image != blank %}
+                                <img
+                                  class="grid-banner-image"
+
+                                  src="{{ block.settings.block_image | image_url: width: 300 }}"
+                                  loading="lazy"
+                                  alt="{{ block.settings.block_image.alt | escape }}"
+                                  width="{{ block.settings.block_image.width }}"
+                                  height="{{ block.settings.block_image.width | divided_by: block.settings.block_image.aspect_ratio | round }}"
+                                >
+                              {% else %}
+                                {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
+                                {%- assign placeholder_image = 'collection-apparel-'
+                                  | append: placeholder_image_index
+                                -%}
+                                {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}
+                              {% endif %}
+                              {%- if block.settings.block_button_link %} </a> {% endif %}
+                              <p class="banner-text">
+                                <a href="{{ block.settings.block_button_link }}">{{ block.settings.banner_text }}</a>
+                              </p>
+                            </div>
+                          </div>
+                      {% endcase %}
+                    {% endfor %}
+                  </div>
+                  {% if section.settings.swiper_navigation %}
+                    <div class="swiper-button-next"><span></span></div>
+                    <div class="swiper-button-prev"><span></span></div>
+                  {% endif %}
+                </div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+            </video-slider>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+   .video_block .video-play-icon {display: flex;justify-content: center;align-items: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 2;}
+  body.gradient.overlay-active {overflow-y: hidden;}
+
+  /* The Modal (background) */
+  .modal {display: none;position: fixed;z-index: 10;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgba(0, 0, 0, 0.9);}
+  .video-popup {display: none;z-index: 10;position: fixed; top: 50%;left: 50%;transform: translate(-50%,-50%);border: none;padding: 0px;background-color: rgb(0 0 0 / 90%);border-radius: 0px; width: 100%; height: 100%;align-items: center; justify-content: center;}
+  .video-popup.visible {  display:flex;}
+  .video-popup[style="display: flex;"] { animation: fadeIn var(--anim-time) ease both;}
+  .video-popup .close { position: absolute; right:0px;top:0px;margin: 1rem;font-weight: 700;font-size: 28px;color: var(--gradient-base-accent-1); background: transparent;padding: 0;border-bottom: none;cursor: pointer;line-height: normal;display: flex;align-items: center;justify-content: center;width: 40px;height: 40px;transition: all linear var(--duration-default);border-radius: 50%;}
+  .video-popup .close:hover{ color: rgba(var(--color-base-solid-button-labels)); }
+  .video-wrapper { width: 700px;  margin: 0 auto;}
+  @media only screen and (max-width: 560px) {
+    .video-wrapper {width: 350px;}
+  }
+  .video-wrapper .video-container {position: relative;padding: 35% 50%;height: 0;overflow: hidden;}
+  .video-wrapper .video-container iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+  .video-section .container {margin: 0;padding-left: 1.5rem;padding-right: 1.5rem;position: relative;}
+  .video-banner {height: 600px;}
+  @media screen and (min-width: 1440px) {
+    .video-banner { height: 900px;}
+  }
+   .container { display: inline-flex; width: auto;align-items: flex-start;}
+  /* by  default values are →  .video-section__content {width: 30%;} .video_block { width: 30%;} .slider_block { width: 40%;} */
+   . slider_block { width: 100%;margin-top: 3.5rem;}
+    .video_block { width: 100%;max-width: 77.1rem;}
+    .video_block img{width: 100%;}
+    .video-icon-button { z-index: 3;display: flex;align-items: center;margin-top: 38px;}
+    .watch-more.btn-close-watch-more.video__btn-play { background: white;}
+
+    .video-play-icon svg{width:1.5rem;height:1.5rem;}
+   .video-play-icon{  {% if section.settings.video_image != blank %} background:url('{{ section.settings.video_image | image_url: width: 200 }}'); {% else %}  background: url('{{ 'product.svg' | asset_url }}'); background-size: cover; background-position: center; {% endif %} background-repeat:no-repeat;background-size:cover;width: 130px;height: 130px;display: flex;    border-radius: 50%;
+      align-items: center;
+      justify-content: center;}
+</style>
+{% javascript %}
+  $(document).ready(function () {
+    $(".video__btn-play").on("click", function (e) {
+      e.preventDefault();
+      $('body').addClass('overlay-active');
+      $(".video-container, .video-wrapper, .pop-up__video-close , .video-popup").css('display','flex');
+      var srchref = "",
+          autoplay = "",
+          id = $(this).data("id");
+      if ($(this).data("type") == "vimeo")
+        var srchref = "//player.vimeo.com/video/";
+      else if ($(this).data("type") == "youtube")
+        var srchref = "https://www.youtube.com/embed/";
+      if ($(this).data("autoplay") == true) autoplay = "?autoplay=1";
+      $("#video-popup-iframe").attr("src", srchref + id + autoplay);
+      $("#video-popup-iframe").on("load", function () {
+        $(".video-wrapper").show();
+      });
+    });
+
+    $(".pop-up__video-close").on("click", function (e) {
+       $('body').removeClass('overlay-active');
+      $(".video-container, .video-wrapper, .pop-up__video-close , .video-popup").css('display','none');
+      $("#video-popup-iframe").attr("src", "");
+    });
+  });
+{% endjavascript %}
+{% schema %}
+{
+  "name": "t:sections.deal-banner.name",
+  "tag": "section",
+  "class": "section section-deal-banner",
+  "settings": [
+    {
+      "type":"checkbox",
+      "id":"page_full_width",
+       "default": false,
+      "label": "t:sections.all.page_full_width.label"
+    },
+    {
+      "type":"checkbox",
+      "id":"page_full_width_spacing",
+       "default": false,
+      "label": "t:sections.all.page_full_width_spacing.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.deal-banner.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "before_image",
+      "label": "t:sections.deal-banner.settings.before_image.label"
+    },
+    {
+      "type": "select",
+      "id": "image_height",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.deal-banner.settings.image_height.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.deal-banner.settings.image_height.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.deal-banner.settings.image_height.options__3.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.deal-banner.settings.image_height.label",
+      "info": "t:sections.deal-banner.settings.image_height.info"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {
+          "value": "top-left",
+          "label": "t:sections.deal-banner.settings.desktop_content_position.options__1.label"
+        },
+        {
+          "value": "top-center",
+          "label": "t:sections.deal-banner.settings.desktop_content_position.options__2.label"
+        },
+        {
+          "value": "top-right",
+          "label": "t:sections.deal-banner.settings.desktop_content_position.options__3.label"
+        },
+        {
+          "value": "middle-left",
+          "label": "t:sections.deal-banner.settings.desktop_content_position.options__4.label"
+        },
+        {
+          "value": "middle-center",
+          "label": "t:sections.deal-banner.settings.desktop_content_position.options__5.label"
+        },
+        {
+          "value": "middle-right",
+          "label": "t:sections.deal-banner.settings.desktop_content_position.options__6.label"
+        },
+        {
+          "value": "bottom-left",
+          "label": "t:sections.deal-banner.settings.desktop_content_position.options__7.label"
+        },
+        {
+          "value": "bottom-center",
+          "label": "t:sections.deal-banner.settings.desktop_content_position.options__8.label"
+        },
+        {
+          "value": "bottom-right",
+          "label": "t:sections.deal-banner.settings.desktop_content_position.options__9.label"
+        }
+      ],
+      "default": "middle-center",
+      "label": "t:sections.deal-banner.settings.desktop_content_position.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_text_box",
+      "default": true,
+      "label": "t:sections.deal-banner.settings.show_text_box.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.deal-banner.settings.desktop_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.deal-banner.settings.desktop_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.deal-banner.settings.desktop_content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.deal-banner.settings.desktop_content_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label",
+      "info": "t:sections.deal-banner.settings.color_scheme.info"
+    },
+    {
+    "type": "header",
+    "content": "t:sections.deal-banner.settings.deal_banner_settings.content"
+    },
+    {
+          "type": "html",
+          "id": "heading",
+          "default": "Deal banner",
+          "label": "t:sections.deal-banner.settings.heading.label"
+    },
+    {
+          "type": "text",
+          "id": "sub-heading",
+          "default": "Deal banner",
+          "label": "t:sections.deal-banner.settings.sub-heading.label"
+    },
+    {
+          "type": "text",
+          "id": "text",
+          "default": "Give customers details about the banner image(s) or content on the template.",
+          "label": "t:sections.deal-banner.settings.text.label"
+        },
+      {
+          "type": "text",
+          "id": "deal_end_date",
+          "label": "t:sections.deal-banner.settings.deal_end_date.label",
+          "info": "t:sections.deal-banner.settings.deal_end_date.info"
+      },
+   {
+          "type": "text",
+          "id": "button_label_1",
+          "default": "Button label",
+          "label": "t:sections.deal-banner.settings.button_label_1.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "t:sections.deal-banner.settings.button_link_1.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_1",
+          "default": false,
+          "label": "t:sections.deal-banner.settings.button_style_secondary_1.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "default": "Button label",
+          "label": "t:sections.deal-banner.settings.button_label_2.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "t:sections.deal-banner.settings.button_link_2.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "default": false,
+          "label": "t:sections.deal-banner.settings.button_style_secondary_2.label"
+        },
+      {
+      "type": "checkbox",
+      "id": "enable_two_column_section",
+      "default": false,
+      "label": "t:sections.deal-banner.settings.enable_two_column_section.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "client_image",
+      "label": "t:sections.deal-banner.settings.client_image.label"
+    },
+    {
+      "type": "text",
+      "id": "client_text",
+      "default": "1 LAKH PRODUCTS SOLD",
+      "label": "t:sections.deal-banner.settings.client_text.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type":"checkbox",
+      "id":"enable_video",
+       "default": false,
+      "label": "t:sections.deal-banner.settings.enable_video.label"
+    },
+     {
+      "type": "image_picker",
+      "id": "video_image",
+      "label": "t:sections.deal-banner.settings.video_image.label"
+    },
+    {
+      "type": "video_url",
+      "id": "video_url",
+      "accept": [
+        "youtube",
+        "vimeo"
+      ],
+      "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+      "label": "t:sections.video-pop-up.settings.video_url.label",
+      "placeholder": "t:sections.video-pop-up.settings.video_url.placeholder",
+      "info": "t:sections.video-pop-up.settings.video_url.info"
+    },
+    {
+    "type": "html",
+    "id": "button_svg",
+    "label": "t:sections.deal-banner.settings.button_svg.label"
+    },
+    {
+    "type": "text",
+    "id": "block_txt_1",
+    "label": "t:sections.deal-banner.settings.block_txt_1.label"
+    },
+    {
+    "type": "text",
+    "id": "block_txt_2",
+    "label": "t:sections.deal-banner.settings.block_txt_2.label"
+    },
+    {
+      "type": "text",
+      "id": "horizontal_text",
+      "label": "t:sections.deal-banner.settings.horizontal_text.label"
+    },
+   {
+    "type": "header",
+    "content": "t:sections.all.custom_class_heading.content"
+    },
+    {
+    "type": "text",
+    "id": "custom_class_name",
+    "label": "t:sections.all.custom_class_name.label"
+    }
+  ],
+  "blocks": [
+    {
+    "type": "image",
+    "name": "t:sections.deal-banner.blocks.image.name",
+    "settings": [
+    {
+    "type": "image_picker",
+    "id": "block_image",
+    "label": "t:sections.deal-banner.blocks.image.settings.block_image.label",
+    "info": "Size: 240x160"
+    },
+    {
+    "type": "text",
+    "id": "banner_text",
+    "label": "t:sections.deal-banner.blocks.image.settings.banner_text.label"
+    },
+    {
+    "type": "url",
+    "id": "block_button_link",
+    "label": "Button link"
+    }
+    ]
+    },
+    {
+    "type": "clients",
+    "name": "t:sections.deal-banner.blocks.clients.name",
+    "settings": [
+    {
+    "type": "text",
+    "id": "client_text",
+    "label": "t:sections.deal-banner.blocks.clients.settings.client_text.label"
+    },
+    {
+    "type": "image_picker",
+    "id": "signature_image",
+    "label": "t:sections.deal-banner.blocks.clients.settings.signature_image.label"
+    }
+    ]
+    }
+    ],
+ "presets": [
+    {
+      "name": "t:sections.deal-banner.presets.name"
+   }
+  ]
+}
+{% endschema %}
