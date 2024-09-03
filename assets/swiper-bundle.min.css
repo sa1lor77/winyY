@@ -26,7 +26,7 @@
   overflow: hidden;
   list-style: none;
   padding: 0;
-  z-index: 1;    
+  z-index: 1;
   cursor: grab;
 }
 .swiper-vertical > .swiper-wrapper {
@@ -57,7 +57,7 @@
   height: 100%;
   position: relative;
   transition-property: transform;
-  list-style:none;
+  list-style: none;
 }
 .swiper-slide-invisible-blank {
   visibility: hidden;
@@ -208,7 +208,7 @@
   z-index: 10;
   cursor: pointer;
   display: flex;
-   align-items: center; 
+  align-items: center;
   justify-content: center;
   color: var(--swiper-navigation-color, var(--swiper-theme-color));
   transition: all 0.3s linear;
@@ -255,24 +255,38 @@
 }
 .swiper-button-prev:hover,
 .swiper-rtl .swiper-button-next:hover {
-  color:rgb(var(--color-base-solid-button-labels));
+  color: rgb(var(--color-base-solid-button-labels));
 }
 .swiper-button-next:hover,
 .swiper-rtl .swiper-button-prev:hover {
-  color:rgb(var(--color-base-solid-button-labels));
+  color: rgb(var(--color-base-solid-button-labels));
 }
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
   content: "next";
 }
- .swiper-button-next{right:0px;opacity:0;}
- .swiper-button-prev{left:0px;opacity:0;}
- .swiper:hover .swiper-button-next,
- .swiper-container:hover .swiper-button-next{right:10px;opacity:1;}
- .swiper:hover .swiper-button-prev,
- .swiper-container:hover .swiper-button-prev{left:10px;opacity:1;}
+.swiper-button-next {
+  right: 0px;
+  opacity: 0;
+}
+.swiper-button-prev {
+  left: 0px;
+  opacity: 0;
+}
+.swiper:hover .swiper-button-next,
+.swiper-container:hover .swiper-button-next {
+  right: 10px;
+  opacity: 1;
+}
+.swiper:hover .swiper-button-prev,
+.swiper-container:hover .swiper-button-prev {
+  left: 10px;
+  opacity: 1;
+}
 .swiper:hover .swiper-button-next.swiper-button-disabled,
-.swiper:hover .swiper-button-prev.swiper-button-disabled {opacity:0.35;}
+.swiper:hover .swiper-button-prev.swiper-button-disabled {
+  opacity: 0.35;
+}
 .swiper-button-lock {
   display: none;
 }
@@ -695,7 +709,7 @@ button.swiper-pagination-bullet {
 .swiper-pagination-bullet-active,
 .swiper-pagination-bullet-active:before {
   transition: all var(--duration-default) linear;
-  width:25px;
+  width: 25px;
 }
 
 /*swiper- product tab*/
@@ -717,8 +731,11 @@ button.swiper-pagination-bullet {
 .tabs_container .swiper-rtl .swiper-button-prev span:after {
   content: "next";
 } */
- 
-.tabs_container .swiper-button-next, .tabs_container .swiper-button-prev{margin-top:-40px;}
+
+.tabs_container .swiper-button-next,
+.tabs_container .swiper-button-prev {
+  margin-top: -40px;
+}
 /* @media screen and (max-width: 480px){
 .swiper-button-next{right:0px;opacity:0;}
  .swiper-button-prev{left:0px;opacity:0;}
