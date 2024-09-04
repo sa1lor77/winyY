@@ -74,6 +74,7 @@
 }
 
 .product-tab-wrapper .collection .grid {
+  gap: 30px;
   justify-content: space-between;
   margin: 0;
   width: 100%;
@@ -428,6 +429,8 @@
   overflow: hidden;
 }
 .custom-product-tab.product-tab-wrapper .collection .tabs {
+  box-shadow: none;
+  gap: 5px;
   justify-content: flex-start;
   margin-bottom: 5.2rem;
 }
