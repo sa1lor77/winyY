@@ -514,12 +514,19 @@ ul.product-icons.top-aligned {
   margin-top: 1rem;
 }
 
-.color-background-1 {
+.card--media {
   padding: 15px;
   background-color: #f0f0f078;
   color: black;
   --color-base-solid-button-labels: 255, 255, 0;
 }
+
+/* .color-background-1 {
+  padding: 15px;
+  background-color: #f0f0f078;
+  color: black;
+  --color-base-solid-button-labels: 255, 255, 0;
+} */
 
 .card__content .variant-option-color li.color-values a {
   position: relative;
