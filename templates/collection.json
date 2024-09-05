@@ -130,7 +130,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_new_tag": true,
-        "show_rating": true,
+        "show_rating": false,
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
