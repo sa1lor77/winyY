@@ -117,7 +117,8 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".grid__item {width: calc(100% - var(--grid-mobile-horizontal-spacing) \/ 2); max-width: calc(100% - var(--grid-mobile-horizontal-spacing) \/ 2);}"
+        ".grid__item {width: calc(100% - var(--grid-mobile-horizontal-spacing) \/ 2); max-width: calc(100% - var(--grid-mobile-horizontal-spacing) \/ 2);}",
+        ".button {padding: 0 55px;}"
       ],
       "settings": {
         "products_per_page": 8,
