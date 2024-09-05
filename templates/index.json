@@ -1083,7 +1083,7 @@
         ".tablinks:checked {color: black !important; background-color: yellow !important;}",
         ".tablinks:hover {color: white; background-color: gray;}",
         ".button {padding: 0 55px;}",
-        ".badge {width: 13%; height: 5%}"
+        ".badge {width: 23%; height: 5%;}"
       ],
       "settings": {
         "page_full_width": false,
