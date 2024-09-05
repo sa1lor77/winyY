@@ -1552,6 +1552,11 @@ p.rating-count.caption span {
     min-width: 8rem;
     font-size: 12px;
   }
+
+  .button--full-width.button--primary {
+    padding: 0 45px;
+  }
+
   .card-wrapper .card:hover .card__inner .quick-add.button-quick-add {
     bottom: 0;
   }

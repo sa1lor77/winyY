@@ -2809,9 +2809,11 @@ input[type="checkbox"] {
   display: none;
 }
 
+
+
 .cart-count-bubble {
   position: absolute;
-  /* color: var(--gradient-base-accent-1); */
+  color: var(--gradient-base-accent-1);
   background: rgba(var(--color-base-solid-button-labels));
   height: 1.4rem;
   width: 1.4rem;
