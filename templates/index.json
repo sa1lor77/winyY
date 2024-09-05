@@ -1,1 +1,1495 @@
-{"sections":{"video_autoplay_8LeftC":{"type":"Video-Autoplay","custom_css":[],"settings":{"heading":"","fullwidth":true,"autoplay":true,"controller":false,"self_hosted_video":"shopify:\/\/files\/videos\/05133.mov"}},"rich_text_xMMt3J":{"type":"rich-text","blocks":{"heading_y7CyiA":{"type":"heading","settings":{"heading":"Be active together with us!","heading_size":"h2"}},"text_dein96":{"type":"text","disabled":true,"settings":{"text":"<p>We manufacture our range of orthopaedic braces and supports with exceptional design. Apart from excellent service and support, this range covers all the needs of medical professionals and patients.<\/p>"}},"button_PMdXaM":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading_y7CyiA","text_dein96","button_PMdXaM"],"settings":{"page_full_width":true,"page_full_width_spacing":false,"color_scheme":"background-2","padding_top":0,"padding_bottom":20}},"featured_collection_RVHryH":{"type":"featured-collection","custom_css":[".title {color: #000;}",".variant-option-color {--color-base-background-1: 100, 100, 100;}",".color-background-1 {padding: 15px; background-color: #f0f0f078; color: black; --color-base-solid-button-labels: 255, 255, 0;}",".collection {color: black;}",".card__badge {background-color: black;}",".card__content {padding: 10px 0 0 0; color: black;}",".card-wrapper {color: black;}",".tooltip {color: white;}",".variant-option-size {display: none;}",".button--secondary {--color-button: 0, 0, 0; color: white;}"],"settings":{"page_full_width":false,"page_full_width_spacing":true,"title":"","heading_size":"h2","sub_heading":"","description":"","button_label":"","button_link":"shopify:\/\/collections","button_style_secondary":false,"column_alignment":"center","collection":"bruce","products_to_show":6,"columns_desktop":4,"show_view_all":true,"view_all_style":"link","color_scheme":"inverse","image_ratio":"adapt","show_secondary_image":true,"show_vendor":true,"show_new_tag":false,"show_rating":true,"padding_top":28,"padding_bottom":32,"custom_class_name":"","swiper_enable":true,"desktop_column":4,"laptop_column":4,"tablet_column":4,"mobile_column":2,"centered_slide":true,"swiper_pagination":false,"swiper_navigation":false,"auto_play":0,"swipe_on_mobile":false,"arrow_on_mobile":false,"columns_mobile":"1"}},"rich_text_ymhPRq":{"type":"rich-text","blocks":{"heading_jYNLfL":{"type":"heading","settings":{"heading":"Feedback from our customers on WinY products:","heading_size":"h2"}},"text_zakkwR":{"type":"text","disabled":true,"settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"button_AcMXNG":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading_jYNLfL","text_zakkwR","button_AcMXNG"],"settings":{"page_full_width":false,"page_full_width_spacing":false,"color_scheme":"background-1","padding_top":0,"padding_bottom":0}},"17253021316905c50c":{"type":"apps","blocks":{"loox_reviews_loox_card_carousel_section_iVBFEj":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"maxWidth":1100,"borderRadius":8,"itemsPerView":5,"mobileItemsPerView":3,"maxNumberOfCharacters":100,"imageRatio":"0.72","reviewerNameColor":"#000000","textColor":"#000000","itemBackgroundColor":"#ffffff","starsColor":"","starsBackgroundColor":"#ffffff","arrows_backgroundColor":"#ffffff","arrows_iconColor":"#9a9a9a","shadow":"offset-dark","border_active":false,"border_width":2,"border_color":"#000000","productIds":""}},"loox_reviews_loox_gallery_carousel_section_xhHnUF":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-gallery-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","disabled":true,"settings":{"maxWidth":1100,"borderRadius":60,"itemsPerView":5,"mobileItemsPerView":3,"imageRatio":"1","reviewerNameColor":"#ffffff","starsColor":"#ffffff","arrows_backgroundColor":"#ffffff","arrows_iconColor":"#9a9a9a","shadow":"none","border_active":false,"border_width":2,"border_color":"#000000","productIds":""}}},"block_order":["loox_reviews_loox_card_carousel_section_iVBFEj","loox_reviews_loox_gallery_carousel_section_xhHnUF"],"settings":{"include_margins":true}},"rich_text_pCV9Ye":{"type":"rich-text","blocks":{"heading_3JcfHe":{"type":"heading","settings":{"heading":"Kinesiology Tape","heading_size":"h2"}},"text_JmwWT7":{"type":"text","disabled":true,"settings":{"text":"<p>Provide extra stiffness at times of increased stress to give you extra support just when you need it most.<\/p>"}},"button_ALbTcc":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading_3JcfHe","text_JmwWT7","button_ALbTcc"],"settings":{"page_full_width":true,"page_full_width_spacing":false,"color_scheme":"background-2","padding_top":20,"padding_bottom":24}},"masonry_banner_ap44nj":{"type":"masonry-banner","blocks":{"text_FRUMHC":{"type":"text","settings":{"block_image":"shopify:\/\/shop_images\/55353.jpg","show_image":true,"show_content":false,"block_title":"Title","block_sub_title":"Sub title","block_description":"Short description","block_button_text":"","block_button_link":"","block_text_align":"left","block_position":"center"}},"text_ryUKqA":{"type":"text","settings":{"block_image":"shopify:\/\/shop_images\/141245.png","show_image":true,"show_content":false,"block_title":"Title","block_sub_title":"Sub title","block_description":"Short description","block_button_text":"","block_button_link":"","block_text_align":"left","block_position":"center"}},"text_ecBhgz":{"type":"text","settings":{"block_image":"shopify:\/\/shop_images\/1_333_1cf79ee9-d384-445c-813b-99e3033ba5fd.png","show_image":true,"show_content":false,"block_title":"Title","block_sub_title":"Sub title","block_description":"Short description","block_button_text":"","block_button_link":"","block_text_align":"left","block_position":"center"}},"text_n8F3eJ":{"type":"text","settings":{"block_image":"shopify:\/\/shop_images\/1_3_32.png","show_image":true,"show_content":false,"block_title":"Title","block_sub_title":"Sub title","block_description":"Short description","block_button_text":"","block_button_link":"","block_text_align":"left","block_position":"center"}}},"block_order":["text_FRUMHC","text_ryUKqA","text_ecBhgz","text_n8F3eJ"],"disabled":true,"settings":{"page_full_width":false,"page_full_width_spacing":false,"color_scheme":"background-1","title":"","heading_size":"h1","sub_heading":"","description":"","button_label":"","button_link":"","button_style_secondary":false,"column_alignment":"center","primary_image":"shopify:\/\/shop_images\/52155_30b3c8af-311a-4e4a-9149-d69edac666d9.jpg","primary_title":"","primary_sub_title":"","primary_description":"","primary_button_text":"","primary_button_link":"","primary_text_align":"left","primary_position":"center","main_banner_style":"overlay_style","additional_banner_style":"overlay_style","content_width":"50\/50","lap_content_width":"40\/60","content_color_scheme":"background-1","block_style":"style-4","padding_top":36,"padding_bottom":36,"overlay_style_height":200,"overlay_style_height_laptop":200,"overlay_style_height_tab":200,"overlay_style_height_mobile":200,"custom_class_name":""}},"image_banner_NjqjWE":{"type":"image-banner","blocks":{"heading_68Uink":{"type":"heading","settings":{"heading":"Recovering from your injury?","heading_size":"h2"}},"text_fhabAA":{"type":"text","settings":{"text":"Do you need to continue exercising?","text_style":"body"}},"buttons_9Nbdjj":{"type":"buttons","disabled":true,"settings":{"button_label_1":"Button label","button_link_1":"","button_style_secondary_1":false,"button_label_2":"Button label","button_link_2":"","button_style_secondary_2":false}},"heading_HdWjKK":{"type":"heading","disabled":true,"settings":{"heading":"Image2","heading_size":"h2"}},"heading_t8TGfj":{"type":"heading","settings":{"heading":"is a solution for professionals","heading_size":"h1"}}},"block_order":["heading_68Uink","text_fhabAA","buttons_9Nbdjj","heading_HdWjKK","heading_t8TGfj"],"settings":{"page_full_width":true,"page_full_width_spacing":false,"image":"shopify:\/\/shop_images\/9898977.png","image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":true,"desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"left","color_scheme":"background-1","mobile_content_alignment":"left","stack_images_on_mobile":true,"show_text_below":true,"margin_top":0,"margin_bottom":0,"custom_class_name":""}},"rich_text_3fpbzc":{"type":"rich-text","blocks":{"heading_9Qf7ed":{"type":"heading","settings":{"heading":"How to use our Kinesiology Tape to your maximum benefit?","heading_size":"h2"}},"text_ADQKg4":{"type":"text","settings":{"text":"<p>Especially for you, we have compiled several options for the proper use of Kinesiology Tape from our professional sports physicians.<\/p>"}},"button_3HRaxk":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading_9Qf7ed","text_ADQKg4","button_3HRaxk"],"settings":{"page_full_width":false,"page_full_width_spacing":false,"color_scheme":"background-1","padding_top":16,"padding_bottom":0}},"17221860964c52a4b7":{"type":"apps","blocks":{"reelup_shoppable_videos_reels_reelup_playlist_slider_D9aFgQ":{"type":"shopify:\/\/apps\/reelup-shoppable-videos-reels\/blocks\/reelup-playlist-slider\/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b","settings":{"playlist_id":"","debugging_script":""}}},"block_order":["reelup_shoppable_videos_reels_reelup_playlist_slider_D9aFgQ"],"custom_css":[],"settings":{"include_margins":false}},"slider_with_promo_image_d7DGBx":{"type":"slider-with-promo-image","blocks":{"slide_KrfHQX":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/55353.jpg","mobile_image":"shopify:\/\/shop_images\/55353.jpg","heading":"","heading_size":"h0","subheading":"","text":"","button_label":"","link":"shopify:\/\/products\/kinesiology-tape","button_style_secondary":false,"box_align":"top-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-2","text_alignment_mobile":"center"}},"slide_niM9y6":{"type":"slide","settings":{"heading":"Image slide","heading_size":"h1","subheading":"Image sub heading","text":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-1","text_alignment_mobile":"center"}}},"block_order":["slide_KrfHQX","slide_niM9y6"],"disabled":true,"custom_css":[],"settings":{"page_full_width":true,"page_full_width_spacing":true,"swiper_pagination":false,"swiper_navigation":false,"auto_play":0,"slider_effect":"fade","accessibility":"slideshow-with-promo-image about our brand","content_width":"70\/30","lap_content_width":"65\/35","tab_content_width":"50\/50","grouped_column_gap":"30","reverse_column":false,"enable_promo_block":true,"promo_block_style":"overlay","promo_height_desktop":300,"promo_height_lap":300,"promo_height_tab":100,"promo_height_mobile":300,"enable_additional_block_1":true,"image_1":"shopify:\/\/shop_images\/141245.jpg","title_1":"Heading","text_1":"Short description","button_1":"Shop Now","link_1":"","enable_additional_block_2":true,"image_2":"shopify:\/\/shop_images\/1_3.jpg","title_2":"Kinesiology Tape","text_2":"Short description","button_2":"Shop Now","link_2":"","enable_additional_block_3":false,"image_3":"shopify:\/\/shop_images\/1_3.jpg","title_3":"Heading","text_3":"Short Description","button_3":"Shop Now","link_3":"","padding_top":20,"padding_bottom":36}},"featured_product_xAwBCw":{"type":"featured-product","blocks":{"text_b6RxJP":{"type":"text","settings":{"text":"{{ section.settings.product.vendor }}","text_style":"uppercase"}},"title_w3bYPm":{"type":"title","settings":{"heading_size":"h1"}},"text_PewGP9":{"type":"text","settings":{"text":"{{ section.settings.product.metafields.descriptors.subtitle.value }}","text_style":"subtitle"}},"price_HLnmrF":{"type":"price","settings":{}},"variant_picker_JXx7w7":{"type":"variant_picker","settings":{"picker_type":"button","picker_method":"custom_color"}},"quantity_selector_fC9Uiq":{"type":"quantity_selector","settings":{}},"buy_buttons_7BrkTw":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true}},"deal_Enka7z":{"type":"deal","settings":{}},"share_X4Wgej":{"type":"share","disabled":true,"settings":{"share_label":"Share"}}},"block_order":["text_b6RxJP","title_w3bYPm","text_PewGP9","price_HLnmrF","variant_picker_JXx7w7","quantity_selector_fC9Uiq","buy_buttons_7BrkTw","deal_Enka7z","share_X4Wgej"],"custom_css":[".button {background-color: black; color: white; --color-button: 130, 130, 130;}"],"settings":{"page_full_width":false,"page_full_width_spacing":true,"product":"kinesiology-tape","color_scheme":"background-1","secondary_background":false,"hide_variants":true,"enable_video_looping":true,"padding_top":0,"padding_bottom":36}},"2fab1a48-6b8c-499d-9b11-e079f61ebc42":{"type":"collection-list","blocks":{"template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-1":{"type":"featured_collection","settings":{"collection":"bruce"}},"template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-2":{"type":"featured_collection","settings":{"collection":"jump-ropes"}},"template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-3":{"type":"featured_collection","settings":{"collection":"helpers"}}},"block_order":["template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-1","template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-2","template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-3"],"disabled":true,"settings":{"page_full_width":false,"page_full_width_spacing":false,"title":"Fashionable Sports Clothing's","heading_size":"h0","sub_heading":"Custom Apparels","description":"","button_label":"","button_link":"","button_style_secondary":true,"column_alignment":"left","image_ratio":"portrait","image_style":"default","columns_desktop":3,"color_scheme":"background-1","show_view_all":true,"collection_layout":"overlay","collection_count":false,"collection_description":false,"collection_button":false,"padding_top":0,"padding_bottom":0,"custom_class_name":"custom-overlay-collection-list","swiper_enable":false,"desktop_column":3,"laptop_column":4,"tablet_column":3,"mobile_column":1,"swiper_pagination":false,"swiper_navigation":false,"auto_play":5,"swipe_on_mobile":true,"arrow_on_mobile":true,"columns_mobile":"1"}},"home_isotope_products_zTpHiB":{"type":"home-isotope-products","disabled":true,"settings":{"page_full_width":false,"page_full_width_spacing":false,"padding_top":36,"padding_bottom":36,"title":"Isotop product gallery","heading_size":"h1","sub_heading":"Sub Heading","description":"Use This Text To Share The Information Which You Like!.","button_label":"Button label","button_link":"","button_style_secondary":false,"column_alignment":"center","tab":"","products_to_show":8,"shop_by_tags_list":"Tab1, Tab2, Tab3","grid":"4","gallery_spacing":30,"custom_class_name":""}},"rich_text_dEThJU":{"type":"rich-text","blocks":{"heading_zQPjne":{"type":"heading","disabled":true,"settings":{"heading":"Digital jump ropes 2.0","heading_size":"h1"}},"text_3r8VwQ":{"type":"text","disabled":true,"settings":{"text":"<p>Gradual recovery and muscle strengthening during workouts with WinY innovative jump ropes<\/p>"}},"button_n8dQbr":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading_zQPjne","text_3r8VwQ","button_n8dQbr"],"disabled":true,"settings":{"page_full_width":true,"page_full_width_spacing":false,"color_scheme":"background-2","padding_top":20,"padding_bottom":24}},"image_banner_ktfQET":{"type":"image-banner","blocks":{"heading_4qhAx6":{"type":"heading","disabled":true,"settings":{"heading":"Image banner","heading_size":"h1"}},"text_UewLHP":{"type":"text","disabled":true,"settings":{"text":"Give customers details about the banner image(s) or content on the template.","text_style":"body"}},"buttons_9TppqV":{"type":"buttons","disabled":true,"settings":{"button_label_1":"Button label","button_link_1":"","button_style_secondary_1":false,"button_label_2":"Button label","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_4qhAx6","text_UewLHP","buttons_9TppqV"],"disabled":true,"settings":{"page_full_width":true,"page_full_width_spacing":false,"image":"shopify:\/\/shop_images\/jump_banner.jpg","image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":true,"desktop_content_position":"top-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"background-1","mobile_content_alignment":"left","stack_images_on_mobile":true,"show_text_below":true,"margin_top":0,"margin_bottom":0,"custom_class_name":""}},"masonry_banner_rLxTwx":{"type":"masonry-banner","blocks":{"text_4P8p3L":{"type":"text","settings":{"block_image":"shopify:\/\/shop_images\/55353.jpg","show_image":true,"show_content":false,"block_title":"Title","block_sub_title":"Sub title","block_description":"Short description","block_button_text":"","block_button_link":"","block_text_align":"left","block_position":"center"}},"text_9GNTh4":{"type":"text","settings":{"block_image":"shopify:\/\/shop_images\/141245.png","show_image":true,"show_content":false,"block_title":"Title","block_sub_title":"Sub title","block_description":"Short description","block_button_text":"","block_button_link":"","block_text_align":"left","block_position":"center"}},"text_6j8wHY":{"type":"text","settings":{"block_image":"shopify:\/\/shop_images\/1_333_1cf79ee9-d384-445c-813b-99e3033ba5fd.png","show_image":true,"show_content":false,"block_title":"Title","block_sub_title":"Sub title","block_description":"Short description","block_button_text":"","block_button_link":"","block_text_align":"left","block_position":"center"}},"text_xb4BYN":{"type":"text","settings":{"block_image":"shopify:\/\/shop_images\/1_3_32.png","show_image":true,"show_content":false,"block_title":"Title","block_sub_title":"Sub title","block_description":"Short description","block_button_text":"","block_button_link":"","block_text_align":"left","block_position":"center"}}},"block_order":["text_4P8p3L","text_9GNTh4","text_6j8wHY","text_xb4BYN"],"disabled":true,"settings":{"page_full_width":false,"page_full_width_spacing":false,"color_scheme":"background-1","title":"","heading_size":"h1","sub_heading":"","description":"","button_label":"","button_link":"","button_style_secondary":false,"column_alignment":"center","primary_image":"shopify:\/\/shop_images\/jump_banner.jpg","primary_title":"","primary_sub_title":"","primary_description":"","primary_button_text":"","primary_button_link":"","primary_text_align":"left","primary_position":"center","main_banner_style":"overlay_style","additional_banner_style":"overlay_style","content_width":"50\/50","lap_content_width":"40\/60","content_color_scheme":"background-1","block_style":"style-5","padding_top":36,"padding_bottom":36,"overlay_style_height":200,"overlay_style_height_laptop":200,"overlay_style_height_tab":200,"overlay_style_height_mobile":200,"custom_class_name":""}},"image_banner_RUdKRD":{"type":"image-banner","blocks":{"heading_zPzFAV":{"type":"heading","disabled":true,"settings":{"heading":"Image banner","heading_size":"h1"}},"text_xGRpTY":{"type":"text","disabled":true,"settings":{"text":"Give customers details about the banner image(s) or content on the template.","text_style":"body"}},"buttons_GWKbMb":{"type":"buttons","disabled":true,"settings":{"button_label_1":"Button label","button_link_1":"","button_style_secondary_1":false,"button_label_2":"Button label","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_zPzFAV","text_xGRpTY","buttons_GWKbMb"],"disabled":true,"settings":{"page_full_width":true,"page_full_width_spacing":false,"image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":false,"desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true,"margin_top":0,"margin_bottom":0,"custom_class_name":""}},"d3a8e18a-48cb-45f5-aab3-80b1f5416ee9":{"type":"product-tab","blocks":{"template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-3":{"type":"tab","settings":{"collection":"helpers","title":"Helpers"}},"template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-2":{"type":"tab","settings":{"collection":"jump-ropes","title":"Jump Ropes"}},"tab_ht6edz":{"type":"tab","settings":{"collection":"bruce","title":"Braces"}},"template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-1":{"type":"tab","settings":{"collection":"all-product","title":"ALL PRODUCTS"}},"d61a7f14-4c00-48a8-9b37-9dc71483d966":{"type":"tab","disabled":true,"settings":{"collection":"leggings","title":"LEGGINS"}},"3d9d6202-115e-4143-b580-9c45cab6fb78":{"type":"tab","disabled":true,"settings":{"collection":"yoga-shorts","title":"TOP WEAR"}},"f3ada1c9-090e-442b-beb5-9ccd8583488c":{"type":"tab","disabled":true,"settings":{"collection":"fit-wear","title":"GYM BAGS"}}},"block_order":["template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-3","template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-2","tab_ht6edz","template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-1","d61a7f14-4c00-48a8-9b37-9dc71483d966","3d9d6202-115e-4143-b580-9c45cab6fb78","f3ada1c9-090e-442b-beb5-9ccd8583488c"],"custom_css":[".tabs {color: white;}",".tablinks {background-color: black; color: #fff;}",".tablinks:checked {color: black !important; background-color: yellow !important;}",".tablinks:hover {color: white; background-color: gray;}"],"settings":{"page_full_width":false,"page_full_width_spacing":false,"title":"","heading_size":"h1","sub_heading":"","description":"","button_label":"","button_link":"","button_style_secondary":false,"column_alignment":"left","color_scheme":"accent-1","products_to_show":8,"products_per_row":4,"enable_slider":false,"enable_dotts":false,"enable_arrows":false,"enable_tab_title":true,"enable_tab_count":false,"enable_collection_icon":false,"show_view_all":false,"tab_alignment":"left","image_ratio":"portrait","show_secondary_image":true,"show_vendor":true,"layout":"none","image_block_heading":"Main Heading","image_block_sub_heading":"Sub Heading","image_block_description":"","image_block_button_text":"View More","image_block_button_link":"","image_block_horizontal_position":"center","image_block_vertical_position":"vertical_middle","padding_top":25,"padding_bottom":10,"custom_class_name":"custom-product-tab"}},"video_autoplay_M7hYx3":{"type":"Video-Autoplay","disabled":true,"settings":{"heading":"","fullwidth":true,"autoplay":true,"controller":false,"self_hosted_video":"shopify:\/\/files\/videos\/14d3665cf59444ec8926b9ec74ed1b471.mp4"}},"image_banner_K3rwx8":{"type":"image-banner","blocks":{"heading_qw97ec":{"type":"heading","settings":{"heading":"SHOP BY PREMIUM FITNESS BRANDS","heading_size":"h1"}},"text_aAjaen":{"type":"text","disabled":true,"settings":{"text":"Give customers details about the banner image(s) or content on the template.","text_style":"body"}},"buttons_3yCVci":{"type":"buttons","settings":{"button_label_1":"SHOP NOW","button_link_1":"https:\/\/dt-stylix.myshopify.com\/collections\/fit-wear","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_qw97ec","text_aAjaen","buttons_3yCVci"],"disabled":true,"settings":{"page_full_width":true,"page_full_width_spacing":false,"image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":false,"desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true,"margin_top":0,"margin_bottom":0,"custom_class_name":""}},"754bbc92-7bb1-41a7-8688-84a4bbf230f7":{"type":"inner-page-team-section","blocks":{"template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-1":{"type":"text","settings":{"show_content":false,"block_title":"Mayeso","block_sub_title":"Training Coach","block_description":"","block_button_text":"","block_button_link":"","desktop_content_alignment":"center"}},"text_4hEaja":{"type":"text","settings":{"show_content":false,"block_title":"Jack","block_sub_title":"Leadership Coach","block_description":"","block_button_text":"","block_button_link":"","desktop_content_alignment":"center"}},"template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-2":{"type":"text","settings":{"show_content":false,"block_title":"Saara","block_sub_title":"Personal Trainer","block_description":"","block_button_text":"","block_button_link":"","desktop_content_alignment":"center"}},"template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-3":{"type":"text","settings":{"show_content":false,"block_title":"Kelvin","block_sub_title":"Health Coach","block_description":"","block_button_text":"","block_button_link":"","desktop_content_alignment":"center"}},"template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-4":{"type":"text","settings":{"show_content":false,"block_title":"Chima","block_sub_title":"Sports Coach","block_description":"","block_button_text":"","block_button_link":"","desktop_content_alignment":"center"}}},"block_order":["template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-1","text_4hEaja","template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-2","template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-3","template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-4"],"disabled":true,"settings":{"page_full_width":false,"page_full_width_spacing":false,"team_section_bg":"shopify:\/\/shop_images\/black-color-solid-background-1920x1080.png","title":"Significant staffs in establishing or shaping Brands","heading_size":"h1","sub_heading":"OUR CO-WORKERS","description":"Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Purus sit amet luctus venenatis lectus. Et malesuada fames ac turpis  pharetra.","button_label":"BOOK YOUR TRAINERS","button_link":"shopify:\/\/collections\/flowy-pants","button_style_secondary":false,"column_alignment":"left","background_style":"primary","team-section":"4","color_scheme":"background-2","padding_top":150,"padding_bottom":150,"custom_class_name":"custom-team-section","swiper_enable":true,"desktop_column":3,"laptop_column":3,"tablet_column":2,"mobile_column":1,"centered_slide":true,"swiper_pagination":true,"swiper_navigation":false,"auto_play":1}},"3d8fb689-6cc3-4587-af75-7ce4905c93f5":{"type":"testimonials","blocks":{"template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-1":{"type":"text","settings":{"block_color_scheme":"accent-1","author":"Dr. Emily Carter","job_title":"Sports Medicine Specialist","quote":"<p>As a sports medicine specialist, I am constantly looking for ways to help my athletes optimize their performance while minimizing the risk of injury.The WinY kinesthetic bandages in my practice have been a game changer.<br\/><br\/>By providing essential, targeted support, they help athletes become more aware of their stance and movement patterns, allowing them to adjust their movements in real time and prevent overuse injuries from occurring.<\/p>","star":"0","link_label":"","link":""}},"template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-2":{"type":"text","settings":{"block_color_scheme":"accent-1","author":"Devid W.","job_title":"Cyclist","quote":"<p>As a professional cyclist, constantly working at my limits is a daily routine. Supporting my joints and ligaments has become an integral part of my recovery and performance regimen. The products developed by WinY have greatly improved my circulation, allowing me to recover faster and train harder. <\/p><p>I can feel the difference in my legs, especially after long rides. My muscles recover faster, fatigue feels garzdo less .I highly recommend these products to any athlete looking to improve their performance and recovery.<br\/><\/p>","star":"0","link_label":"","link":""}},"template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-3":{"type":"text","settings":{"block_color_scheme":"accent-1","author":"Lara Z.","job_title":"Professional tennis player","quote":"<p>The constant strain on my elbows from playing professional tennis can be brutal. I have always struggled with muscle pain and stiffness when serving the ball, injury prevention is of utmost importance to me. The improved circulation provided by the WinY support brace has significantly reduced my recovery time, allowing me to get back on the tennis court sooner. <\/p>","star":"0","link_label":"","link":""}},"text_mzGG9m":{"type":"text","settings":{"block_color_scheme":"accent-1","author":"Lara Zaro","job_title":"Teacher","quote":"<p>Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Cras adipiscing enim eu turpis egestas pretium aenean. Habitant morbi tristique senectus et netus et malesuada fames ac. Dolor sit amet consectetur adipiscing elit pellentesque habitant.<\/p>","star":"0","link_label":"","link":""}}},"block_order":["template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-1","template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-2","template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-3","text_mzGG9m"],"settings":{"page_full_width":false,"page_full_width_spacing":false,"title":"What Our Customer’s say","heading_size":"h1","sub_heading":"Testimonials","description":"","button_label":"","button_link":"","button_style_secondary":false,"column_alignment":"center","color_scheme":"background-1","testimonial_text_alignment":"center","padding_top":20,"padding_bottom":0,"custom_class_name":"custom-testimonial","desktop_column":1,"laptop_column":1,"tablet_column":1,"mobile_column":1,"centered_slide":true,"swiper_pagination":false,"swiper_navigation":true,"auto_play":0}},"08c77800-7288-4c52-a9dd-1da080e1d623":{"type":"home-search-section","disabled":true,"settings":{"page_full_width":false,"page_full_width_spacing":false,"title":"Curious About Your Delivery?","heading_size":"h1","sub_heading":"TRACK YOUR ORDER","description":"","button_label":"","button_link":"","button_style_secondary":false,"column_alignment":"left","color_scheme":"accent-1","padding_top":150,"padding_bottom":150,"custom_class_name":""}},"056c1459-4595-484d-9b93-48f2669266c1":{"type":"collection-list","blocks":{"template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-1":{"type":"featured_collection","settings":{"collection":"yoga-pants"}},"template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-2":{"type":"featured_collection","settings":{"collection":"fit-wear"}},"template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-3":{"type":"featured_collection","settings":{"collection":"yoga-tops"}},"65fa3f50-5d29-497f-945e-01f65070cfb7":{"type":"featured_collection","settings":{"collection":"yoga-shorts"}}},"block_order":["template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-1","template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-2","template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-3","65fa3f50-5d29-497f-945e-01f65070cfb7"],"disabled":true,"settings":{"page_full_width":false,"page_full_width_spacing":false,"title":"Fresh Arrivals","heading_size":"h1","sub_heading":"SHOWCASE","description":"","button_label":"","button_link":"","button_style_secondary":false,"column_alignment":"center","image_ratio":"square","image_style":"default","columns_desktop":4,"color_scheme":"background-1","show_view_all":false,"collection_layout":"defalut","collection_count":false,"collection_description":true,"collection_button":false,"padding_top":150,"padding_bottom":50,"custom_class_name":"custom-collection-list","swiper_enable":false,"desktop_column":4,"laptop_column":4,"tablet_column":3,"mobile_column":2,"swiper_pagination":false,"swiper_navigation":false,"auto_play":0,"swipe_on_mobile":true,"arrow_on_mobile":true,"columns_mobile":"2"}}},"order":["video_autoplay_8LeftC","rich_text_xMMt3J","featured_collection_RVHryH","rich_text_ymhPRq","17253021316905c50c","rich_text_pCV9Ye","masonry_banner_ap44nj","image_banner_NjqjWE","rich_text_3fpbzc","17221860964c52a4b7","slider_with_promo_image_d7DGBx","featured_product_xAwBCw","2fab1a48-6b8c-499d-9b11-e079f61ebc42","home_isotope_products_zTpHiB","rich_text_dEThJU","image_banner_ktfQET","masonry_banner_rLxTwx","image_banner_RUdKRD","d3a8e18a-48cb-45f5-aab3-80b1f5416ee9","video_autoplay_M7hYx3","image_banner_K3rwx8","754bbc92-7bb1-41a7-8688-84a4bbf230f7","3d8fb689-6cc3-4587-af75-7ce4905c93f5","08c77800-7288-4c52-a9dd-1da080e1d623","056c1459-4595-484d-9b93-48f2669266c1"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "video_autoplay_8LeftC": {
+      "type": "Video-Autoplay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "",
+        "fullwidth": true,
+        "autoplay": true,
+        "controller": false,
+        "self_hosted_video": "shopify:\/\/files\/videos\/05133.mov"
+      }
+    },
+    "rich_text_xMMt3J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_y7CyiA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be active together with us!",
+            "heading_size": "h2"
+          }
+        },
+        "text_dein96": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>We manufacture our range of orthopaedic braces and supports with exceptional design. Apart from excellent service and support, this range covers all the needs of medical professionals and patients.<\/p>"
+          }
+        },
+        "button_PMdXaM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_y7CyiA",
+        "text_dein96",
+        "button_PMdXaM"
+      ],
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "color_scheme": "background-2",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "featured_collection_RVHryH": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".title {color: #000;}",
+        ".variant-option-color {--color-base-background-1: 100, 100, 100;}",
+        ".color-background-1 {padding: 15px; background-color: #f0f0f078; color: black; --color-base-solid-button-labels: 255, 255, 0;}",
+        ".collection {color: black;}",
+        ".card__badge {background-color: black;}",
+        ".card__content {padding: 10px 0 0 0; color: black;}",
+        ".card-wrapper {color: black;}",
+        ".tooltip {color: white;}",
+        ".variant-option-size {display: none;}",
+        ".button--secondary {--color-button: 0, 0, 0; color: white;}"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": true,
+        "title": "",
+        "heading_size": "h2",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "collection": "bruce",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_new_tag": false,
+        "show_rating": true,
+        "padding_top": 28,
+        "padding_bottom": 32,
+        "custom_class_name": "",
+        "swiper_enable": true,
+        "desktop_column": 4,
+        "laptop_column": 4,
+        "tablet_column": 4,
+        "mobile_column": 2,
+        "centered_slide": true,
+        "swiper_pagination": false,
+        "swiper_navigation": false,
+        "auto_play": 0,
+        "swipe_on_mobile": false,
+        "arrow_on_mobile": false,
+        "columns_mobile": "1"
+      }
+    },
+    "rich_text_ymhPRq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jYNLfL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Feedback from our customers on WinY products:",
+            "heading_size": "h2"
+          }
+        },
+        "text_zakkwR": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_AcMXNG": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jYNLfL",
+        "text_zakkwR",
+        "button_AcMXNG"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "17253021316905c50c": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_card_carousel_section_iVBFEj": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 5,
+            "mobileItemsPerView": 3,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        },
+        "loox_reviews_loox_gallery_carousel_section_xhHnUF": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-gallery-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 60,
+            "itemsPerView": 5,
+            "mobileItemsPerView": 3,
+            "imageRatio": "1",
+            "reviewerNameColor": "#ffffff",
+            "starsColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "none",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_card_carousel_section_iVBFEj",
+        "loox_reviews_loox_gallery_carousel_section_xhHnUF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_pCV9Ye": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3JcfHe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kinesiology Tape",
+            "heading_size": "h2"
+          }
+        },
+        "text_JmwWT7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Provide extra stiffness at times of increased stress to give you extra support just when you need it most.<\/p>"
+          }
+        },
+        "button_ALbTcc": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3JcfHe",
+        "text_JmwWT7",
+        "button_ALbTcc"
+      ],
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "color_scheme": "background-2",
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
+    "masonry_banner_ap44nj": {
+      "type": "masonry-banner",
+      "blocks": {
+        "text_FRUMHC": {
+          "type": "text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/55353.jpg",
+            "show_image": true,
+            "show_content": false,
+            "block_title": "Title",
+            "block_sub_title": "Sub title",
+            "block_description": "Short description",
+            "block_button_text": "",
+            "block_button_link": "",
+            "block_text_align": "left",
+            "block_position": "center"
+          }
+        },
+        "text_ryUKqA": {
+          "type": "text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/141245.png",
+            "show_image": true,
+            "show_content": false,
+            "block_title": "Title",
+            "block_sub_title": "Sub title",
+            "block_description": "Short description",
+            "block_button_text": "",
+            "block_button_link": "",
+            "block_text_align": "left",
+            "block_position": "center"
+          }
+        },
+        "text_ecBhgz": {
+          "type": "text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/1_333_1cf79ee9-d384-445c-813b-99e3033ba5fd.png",
+            "show_image": true,
+            "show_content": false,
+            "block_title": "Title",
+            "block_sub_title": "Sub title",
+            "block_description": "Short description",
+            "block_button_text": "",
+            "block_button_link": "",
+            "block_text_align": "left",
+            "block_position": "center"
+          }
+        },
+        "text_n8F3eJ": {
+          "type": "text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/1_3_32.png",
+            "show_image": true,
+            "show_content": false,
+            "block_title": "Title",
+            "block_sub_title": "Sub title",
+            "block_description": "Short description",
+            "block_button_text": "",
+            "block_button_link": "",
+            "block_text_align": "left",
+            "block_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "text_FRUMHC",
+        "text_ryUKqA",
+        "text_ecBhgz",
+        "text_n8F3eJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "color_scheme": "background-1",
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "primary_image": "shopify:\/\/shop_images\/52155_30b3c8af-311a-4e4a-9149-d69edac666d9.jpg",
+        "primary_title": "",
+        "primary_sub_title": "",
+        "primary_description": "",
+        "primary_button_text": "",
+        "primary_button_link": "",
+        "primary_text_align": "left",
+        "primary_position": "center",
+        "main_banner_style": "overlay_style",
+        "additional_banner_style": "overlay_style",
+        "content_width": "50\/50",
+        "lap_content_width": "40\/60",
+        "content_color_scheme": "background-1",
+        "block_style": "style-4",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "overlay_style_height": 200,
+        "overlay_style_height_laptop": 200,
+        "overlay_style_height_tab": 200,
+        "overlay_style_height_mobile": 200,
+        "custom_class_name": ""
+      }
+    },
+    "image_banner_NjqjWE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_68Uink": {
+          "type": "heading",
+          "settings": {
+            "heading": "Recovering from your injury?",
+            "heading_size": "h2"
+          }
+        },
+        "text_fhabAA": {
+          "type": "text",
+          "settings": {
+            "text": "Do you need to continue exercising?",
+            "text_style": "body"
+          }
+        },
+        "buttons_9Nbdjj": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "heading_HdWjKK": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image2",
+            "heading_size": "h2"
+          }
+        },
+        "heading_t8TGfj": {
+          "type": "heading",
+          "settings": {
+            "heading": "is a solution for professionals",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_68Uink",
+        "text_fhabAA",
+        "buttons_9Nbdjj",
+        "heading_HdWjKK",
+        "heading_t8TGfj"
+      ],
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "image": "shopify:\/\/shop_images\/9898977.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "custom_class_name": ""
+      }
+    },
+    "rich_text_3fpbzc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9Qf7ed": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to use our Kinesiology Tape to your maximum benefit?",
+            "heading_size": "h2"
+          }
+        },
+        "text_ADQKg4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Especially for you, we have compiled several options for the proper use of Kinesiology Tape from our professional sports physicians.<\/p>"
+          }
+        },
+        "button_3HRaxk": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9Qf7ed",
+        "text_ADQKg4",
+        "button_3HRaxk"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "17221860964c52a4b7": {
+      "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_playlist_slider_D9aFgQ": {
+          "type": "shopify:\/\/apps\/reelup-shoppable-videos-reels\/blocks\/reelup-playlist-slider\/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {
+            "playlist_id": "",
+            "debugging_script": ""
+          }
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_playlist_slider_D9aFgQ"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "slider_with_promo_image_d7DGBx": {
+      "type": "slider-with-promo-image",
+      "blocks": {
+        "slide_KrfHQX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/55353.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/55353.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/products\/kinesiology-tape",
+            "button_style_secondary": false,
+            "box_align": "top-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_niM9y6": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Image sub heading",
+            "text": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_KrfHQX",
+        "slide_niM9y6"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": true,
+        "swiper_pagination": false,
+        "swiper_navigation": false,
+        "auto_play": 0,
+        "slider_effect": "fade",
+        "accessibility": "slideshow-with-promo-image about our brand",
+        "content_width": "70\/30",
+        "lap_content_width": "65\/35",
+        "tab_content_width": "50\/50",
+        "grouped_column_gap": "30",
+        "reverse_column": false,
+        "enable_promo_block": true,
+        "promo_block_style": "overlay",
+        "promo_height_desktop": 300,
+        "promo_height_lap": 300,
+        "promo_height_tab": 100,
+        "promo_height_mobile": 300,
+        "enable_additional_block_1": true,
+        "image_1": "shopify:\/\/shop_images\/141245.jpg",
+        "title_1": "Heading",
+        "text_1": "Short description",
+        "button_1": "Shop Now",
+        "link_1": "",
+        "enable_additional_block_2": true,
+        "image_2": "shopify:\/\/shop_images\/1_3.jpg",
+        "title_2": "Kinesiology Tape",
+        "text_2": "Short description",
+        "button_2": "Shop Now",
+        "link_2": "",
+        "enable_additional_block_3": false,
+        "image_3": "shopify:\/\/shop_images\/1_3.jpg",
+        "title_3": "Heading",
+        "text_3": "Short Description",
+        "button_3": "Shop Now",
+        "link_3": "",
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_xAwBCw": {
+      "type": "featured-product",
+      "blocks": {
+        "text_b6RxJP": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_w3bYPm": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "text_PewGP9": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price_HLnmrF": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_JXx7w7": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "picker_method": "custom_color"
+          }
+        },
+        "quantity_selector_fC9Uiq": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_7BrkTw": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "deal_Enka7z": {
+          "type": "deal",
+          "settings": {
+          }
+        },
+        "share_X4Wgej": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_b6RxJP",
+        "title_w3bYPm",
+        "text_PewGP9",
+        "price_HLnmrF",
+        "variant_picker_JXx7w7",
+        "quantity_selector_fC9Uiq",
+        "buy_buttons_7BrkTw",
+        "deal_Enka7z",
+        "share_X4Wgej"
+      ],
+      "custom_css": [
+        ".button {background-color: black; color: white; --color-button: 130, 130, 130;}"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": true,
+        "product": "kinesiology-tape",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "2fab1a48-6b8c-499d-9b11-e079f61ebc42": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bruce"
+          }
+        },
+        "template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jump-ropes"
+          }
+        },
+        "template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "helpers"
+          }
+        }
+      },
+      "block_order": [
+        "template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-1",
+        "template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-2",
+        "template--15190569189487__2fab1a48-6b8c-499d-9b11-e079f61ebc42-featured_collection-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "Fashionable Sports Clothing's",
+        "heading_size": "h0",
+        "sub_heading": "Custom Apparels",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": true,
+        "column_alignment": "left",
+        "image_ratio": "portrait",
+        "image_style": "default",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "collection_layout": "overlay",
+        "collection_count": false,
+        "collection_description": false,
+        "collection_button": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class_name": "custom-overlay-collection-list",
+        "swiper_enable": false,
+        "desktop_column": 3,
+        "laptop_column": 4,
+        "tablet_column": 3,
+        "mobile_column": 1,
+        "swiper_pagination": false,
+        "swiper_navigation": false,
+        "auto_play": 5,
+        "swipe_on_mobile": true,
+        "arrow_on_mobile": true,
+        "columns_mobile": "1"
+      }
+    },
+    "home_isotope_products_zTpHiB": {
+      "type": "home-isotope-products",
+      "disabled": true,
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "title": "Isotop product gallery",
+        "heading_size": "h1",
+        "sub_heading": "Sub Heading",
+        "description": "Use This Text To Share The Information Which You Like!.",
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "tab": "",
+        "products_to_show": 8,
+        "shop_by_tags_list": "Tab1, Tab2, Tab3",
+        "grid": "4",
+        "gallery_spacing": 30,
+        "custom_class_name": ""
+      }
+    },
+    "rich_text_dEThJU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zQPjne": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Digital jump ropes 2.0",
+            "heading_size": "h1"
+          }
+        },
+        "text_3r8VwQ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Gradual recovery and muscle strengthening during workouts with WinY innovative jump ropes<\/p>"
+          }
+        },
+        "button_n8dQbr": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zQPjne",
+        "text_3r8VwQ",
+        "button_n8dQbr"
+      ],
+      "disabled": true,
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "color_scheme": "background-2",
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
+    "image_banner_ktfQET": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_4qhAx6": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_UewLHP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_9TppqV": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4qhAx6",
+        "text_UewLHP",
+        "buttons_9TppqV"
+      ],
+      "disabled": true,
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "image": "shopify:\/\/shop_images\/jump_banner.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "custom_class_name": ""
+      }
+    },
+    "masonry_banner_rLxTwx": {
+      "type": "masonry-banner",
+      "blocks": {
+        "text_4P8p3L": {
+          "type": "text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/55353.jpg",
+            "show_image": true,
+            "show_content": false,
+            "block_title": "Title",
+            "block_sub_title": "Sub title",
+            "block_description": "Short description",
+            "block_button_text": "",
+            "block_button_link": "",
+            "block_text_align": "left",
+            "block_position": "center"
+          }
+        },
+        "text_9GNTh4": {
+          "type": "text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/141245.png",
+            "show_image": true,
+            "show_content": false,
+            "block_title": "Title",
+            "block_sub_title": "Sub title",
+            "block_description": "Short description",
+            "block_button_text": "",
+            "block_button_link": "",
+            "block_text_align": "left",
+            "block_position": "center"
+          }
+        },
+        "text_6j8wHY": {
+          "type": "text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/1_333_1cf79ee9-d384-445c-813b-99e3033ba5fd.png",
+            "show_image": true,
+            "show_content": false,
+            "block_title": "Title",
+            "block_sub_title": "Sub title",
+            "block_description": "Short description",
+            "block_button_text": "",
+            "block_button_link": "",
+            "block_text_align": "left",
+            "block_position": "center"
+          }
+        },
+        "text_xb4BYN": {
+          "type": "text",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/1_3_32.png",
+            "show_image": true,
+            "show_content": false,
+            "block_title": "Title",
+            "block_sub_title": "Sub title",
+            "block_description": "Short description",
+            "block_button_text": "",
+            "block_button_link": "",
+            "block_text_align": "left",
+            "block_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "text_4P8p3L",
+        "text_9GNTh4",
+        "text_6j8wHY",
+        "text_xb4BYN"
+      ],
+      "disabled": true,
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "color_scheme": "background-1",
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "primary_image": "shopify:\/\/shop_images\/jump_banner.jpg",
+        "primary_title": "",
+        "primary_sub_title": "",
+        "primary_description": "",
+        "primary_button_text": "",
+        "primary_button_link": "",
+        "primary_text_align": "left",
+        "primary_position": "center",
+        "main_banner_style": "overlay_style",
+        "additional_banner_style": "overlay_style",
+        "content_width": "50\/50",
+        "lap_content_width": "40\/60",
+        "content_color_scheme": "background-1",
+        "block_style": "style-5",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "overlay_style_height": 200,
+        "overlay_style_height_laptop": 200,
+        "overlay_style_height_tab": 200,
+        "overlay_style_height_mobile": 200,
+        "custom_class_name": ""
+      }
+    },
+    "image_banner_RUdKRD": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zPzFAV": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_xGRpTY": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_GWKbMb": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zPzFAV",
+        "text_xGRpTY",
+        "buttons_GWKbMb"
+      ],
+      "disabled": true,
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "custom_class_name": ""
+      }
+    },
+    "d3a8e18a-48cb-45f5-aab3-80b1f5416ee9": {
+      "type": "product-tab",
+      "blocks": {
+        "template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-3": {
+          "type": "tab",
+          "settings": {
+            "collection": "helpers",
+            "title": "Helpers"
+          }
+        },
+        "template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-2": {
+          "type": "tab",
+          "settings": {
+            "collection": "jump-ropes",
+            "title": "Jump Ropes"
+          }
+        },
+        "tab_ht6edz": {
+          "type": "tab",
+          "settings": {
+            "collection": "bruce",
+            "title": "Braces"
+          }
+        },
+        "template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-1": {
+          "type": "tab",
+          "settings": {
+            "collection": "all-product",
+            "title": "ALL PRODUCTS"
+          }
+        },
+        "d61a7f14-4c00-48a8-9b37-9dc71483d966": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "collection": "leggings",
+            "title": "LEGGINS"
+          }
+        },
+        "3d9d6202-115e-4143-b580-9c45cab6fb78": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "collection": "yoga-shorts",
+            "title": "TOP WEAR"
+          }
+        },
+        "f3ada1c9-090e-442b-beb5-9ccd8583488c": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "collection": "fit-wear",
+            "title": "GYM BAGS"
+          }
+        }
+      },
+      "block_order": [
+        "template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-3",
+        "template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-2",
+        "tab_ht6edz",
+        "template--15190569189487__d3a8e18a-48cb-45f5-aab3-80b1f5416ee9-tab-1",
+        "d61a7f14-4c00-48a8-9b37-9dc71483d966",
+        "3d9d6202-115e-4143-b580-9c45cab6fb78",
+        "f3ada1c9-090e-442b-beb5-9ccd8583488c"
+      ],
+      "custom_css": [
+        ".tabs {color: white;}",
+        ".tablinks {background-color: black; color: #fff;}",
+        ".tablinks:checked {color: black !important; background-color: yellow !important;}",
+        ".tablinks:hover {color: white; background-color: gray;}",
+        ".button {padding: 0 55px;}",
+        ".badge {width: 13%; height: 5%}"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "",
+        "heading_size": "h1",
+        "sub_heading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "left",
+        "color_scheme": "accent-1",
+        "products_to_show": 8,
+        "products_per_row": 4,
+        "enable_slider": false,
+        "enable_dotts": false,
+        "enable_arrows": false,
+        "enable_tab_title": true,
+        "enable_tab_count": false,
+        "enable_collection_icon": false,
+        "show_view_all": false,
+        "tab_alignment": "left",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "layout": "none",
+        "image_block_heading": "Main Heading",
+        "image_block_sub_heading": "Sub Heading",
+        "image_block_description": "",
+        "image_block_button_text": "View More",
+        "image_block_button_link": "",
+        "image_block_horizontal_position": "center",
+        "image_block_vertical_position": "vertical_middle",
+        "padding_top": 25,
+        "padding_bottom": 10,
+        "custom_class_name": "custom-product-tab"
+      }
+    },
+    "video_autoplay_M7hYx3": {
+      "type": "Video-Autoplay",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "fullwidth": true,
+        "autoplay": true,
+        "controller": false,
+        "self_hosted_video": "shopify:\/\/files\/videos\/14d3665cf59444ec8926b9ec74ed1b471.mp4"
+      }
+    },
+    "image_banner_K3rwx8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_qw97ec": {
+          "type": "heading",
+          "settings": {
+            "heading": "SHOP BY PREMIUM FITNESS BRANDS",
+            "heading_size": "h1"
+          }
+        },
+        "text_aAjaen": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_3yCVci": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "https:\/\/dt-stylix.myshopify.com\/collections\/fit-wear",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qw97ec",
+        "text_aAjaen",
+        "buttons_3yCVci"
+      ],
+      "disabled": true,
+      "settings": {
+        "page_full_width": true,
+        "page_full_width_spacing": false,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "custom_class_name": ""
+      }
+    },
+    "754bbc92-7bb1-41a7-8688-84a4bbf230f7": {
+      "type": "inner-page-team-section",
+      "blocks": {
+        "template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-1": {
+          "type": "text",
+          "settings": {
+            "show_content": false,
+            "block_title": "Mayeso",
+            "block_sub_title": "Training Coach",
+            "block_description": "",
+            "block_button_text": "",
+            "block_button_link": "",
+            "desktop_content_alignment": "center"
+          }
+        },
+        "text_4hEaja": {
+          "type": "text",
+          "settings": {
+            "show_content": false,
+            "block_title": "Jack",
+            "block_sub_title": "Leadership Coach",
+            "block_description": "",
+            "block_button_text": "",
+            "block_button_link": "",
+            "desktop_content_alignment": "center"
+          }
+        },
+        "template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-2": {
+          "type": "text",
+          "settings": {
+            "show_content": false,
+            "block_title": "Saara",
+            "block_sub_title": "Personal Trainer",
+            "block_description": "",
+            "block_button_text": "",
+            "block_button_link": "",
+            "desktop_content_alignment": "center"
+          }
+        },
+        "template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-3": {
+          "type": "text",
+          "settings": {
+            "show_content": false,
+            "block_title": "Kelvin",
+            "block_sub_title": "Health Coach",
+            "block_description": "",
+            "block_button_text": "",
+            "block_button_link": "",
+            "desktop_content_alignment": "center"
+          }
+        },
+        "template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-4": {
+          "type": "text",
+          "settings": {
+            "show_content": false,
+            "block_title": "Chima",
+            "block_sub_title": "Sports Coach",
+            "block_description": "",
+            "block_button_text": "",
+            "block_button_link": "",
+            "desktop_content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-1",
+        "text_4hEaja",
+        "template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-2",
+        "template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-3",
+        "template--15190569189487__754bbc92-7bb1-41a7-8688-84a4bbf230f7-text-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "team_section_bg": "shopify:\/\/shop_images\/black-color-solid-background-1920x1080.png",
+        "title": "Significant staffs in establishing or shaping Brands",
+        "heading_size": "h1",
+        "sub_heading": "OUR CO-WORKERS",
+        "description": "Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Purus sit amet luctus venenatis lectus. Et malesuada fames ac turpis  pharetra.",
+        "button_label": "BOOK YOUR TRAINERS",
+        "button_link": "shopify:\/\/collections\/flowy-pants",
+        "button_style_secondary": false,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "team-section": "4",
+        "color_scheme": "background-2",
+        "padding_top": 150,
+        "padding_bottom": 150,
+        "custom_class_name": "custom-team-section",
+        "swiper_enable": true,
+        "desktop_column": 3,
+        "laptop_column": 3,
+        "tablet_column": 2,
+        "mobile_column": 1,
+        "centered_slide": true,
+        "swiper_pagination": true,
+        "swiper_navigation": false,
+        "auto_play": 1
+      }
+    },
+    "3d8fb689-6cc3-4587-af75-7ce4905c93f5": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-1": {
+          "type": "text",
+          "settings": {
+            "block_color_scheme": "accent-1",
+            "author": "Dr. Emily Carter",
+            "job_title": "Sports Medicine Specialist",
+            "quote": "<p>As a sports medicine specialist, I am constantly looking for ways to help my athletes optimize their performance while minimizing the risk of injury.The WinY kinesthetic bandages in my practice have been a game changer.<br\/><br\/>By providing essential, targeted support, they help athletes become more aware of their stance and movement patterns, allowing them to adjust their movements in real time and prevent overuse injuries from occurring.<\/p>",
+            "star": "0",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-2": {
+          "type": "text",
+          "settings": {
+            "block_color_scheme": "accent-1",
+            "author": "Devid W.",
+            "job_title": "Cyclist",
+            "quote": "<p>As a professional cyclist, constantly working at my limits is a daily routine. Supporting my joints and ligaments has become an integral part of my recovery and performance regimen. The products developed by WinY have greatly improved my circulation, allowing me to recover faster and train harder. <\/p><p>I can feel the difference in my legs, especially after long rides. My muscles recover faster, fatigue feels garzdo less .I highly recommend these products to any athlete looking to improve their performance and recovery.<br\/><\/p>",
+            "star": "0",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-3": {
+          "type": "text",
+          "settings": {
+            "block_color_scheme": "accent-1",
+            "author": "Lara Z.",
+            "job_title": "Professional tennis player",
+            "quote": "<p>The constant strain on my elbows from playing professional tennis can be brutal. I have always struggled with muscle pain and stiffness when serving the ball, injury prevention is of utmost importance to me. The improved circulation provided by the WinY support brace has significantly reduced my recovery time, allowing me to get back on the tennis court sooner. <\/p>",
+            "star": "0",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "text_mzGG9m": {
+          "type": "text",
+          "settings": {
+            "block_color_scheme": "accent-1",
+            "author": "Lara Zaro",
+            "job_title": "Teacher",
+            "quote": "<p>Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Cras adipiscing enim eu turpis egestas pretium aenean. Habitant morbi tristique senectus et netus et malesuada fames ac. Dolor sit amet consectetur adipiscing elit pellentesque habitant.<\/p>",
+            "star": "0",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-1",
+        "template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-2",
+        "template--15190569189487__3d8fb689-6cc3-4587-af75-7ce4905c93f5-text-3",
+        "text_mzGG9m"
+      ],
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "What Our Customer’s say",
+        "heading_size": "h1",
+        "sub_heading": "Testimonials",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "color_scheme": "background-1",
+        "testimonial_text_alignment": "center",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "custom_class_name": "custom-testimonial",
+        "desktop_column": 1,
+        "laptop_column": 1,
+        "tablet_column": 1,
+        "mobile_column": 1,
+        "centered_slide": true,
+        "swiper_pagination": false,
+        "swiper_navigation": true,
+        "auto_play": 0
+      }
+    },
+    "08c77800-7288-4c52-a9dd-1da080e1d623": {
+      "type": "home-search-section",
+      "disabled": true,
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "Curious About Your Delivery?",
+        "heading_size": "h1",
+        "sub_heading": "TRACK YOUR ORDER",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "left",
+        "color_scheme": "accent-1",
+        "padding_top": 150,
+        "padding_bottom": 150,
+        "custom_class_name": ""
+      }
+    },
+    "056c1459-4595-484d-9b93-48f2669266c1": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "yoga-pants"
+          }
+        },
+        "template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fit-wear"
+          }
+        },
+        "template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "yoga-tops"
+          }
+        },
+        "65fa3f50-5d29-497f-945e-01f65070cfb7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "yoga-shorts"
+          }
+        }
+      },
+      "block_order": [
+        "template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-1",
+        "template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-2",
+        "template--15190569189487__056c1459-4595-484d-9b93-48f2669266c1-featured_collection-3",
+        "65fa3f50-5d29-497f-945e-01f65070cfb7"
+      ],
+      "disabled": true,
+      "settings": {
+        "page_full_width": false,
+        "page_full_width_spacing": false,
+        "title": "Fresh Arrivals",
+        "heading_size": "h1",
+        "sub_heading": "SHOWCASE",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "column_alignment": "center",
+        "image_ratio": "square",
+        "image_style": "default",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "collection_layout": "defalut",
+        "collection_count": false,
+        "collection_description": true,
+        "collection_button": false,
+        "padding_top": 150,
+        "padding_bottom": 50,
+        "custom_class_name": "custom-collection-list",
+        "swiper_enable": false,
+        "desktop_column": 4,
+        "laptop_column": 4,
+        "tablet_column": 3,
+        "mobile_column": 2,
+        "swiper_pagination": false,
+        "swiper_navigation": false,
+        "auto_play": 0,
+        "swipe_on_mobile": true,
+        "arrow_on_mobile": true,
+        "columns_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "video_autoplay_8LeftC",
+    "rich_text_xMMt3J",
+    "featured_collection_RVHryH",
+    "rich_text_ymhPRq",
+    "17253021316905c50c",
+    "rich_text_pCV9Ye",
+    "masonry_banner_ap44nj",
+    "image_banner_NjqjWE",
+    "rich_text_3fpbzc",
+    "17221860964c52a4b7",
+    "slider_with_promo_image_d7DGBx",
+    "featured_product_xAwBCw",
+    "2fab1a48-6b8c-499d-9b11-e079f61ebc42",
+    "home_isotope_products_zTpHiB",
+    "rich_text_dEThJU",
+    "image_banner_ktfQET",
+    "masonry_banner_rLxTwx",
+    "image_banner_RUdKRD",
+    "d3a8e18a-48cb-45f5-aab3-80b1f5416ee9",
+    "video_autoplay_M7hYx3",
+    "image_banner_K3rwx8",
+    "754bbc92-7bb1-41a7-8688-84a4bbf230f7",
+    "3d8fb689-6cc3-4587-af75-7ce4905c93f5",
+    "08c77800-7288-4c52-a9dd-1da080e1d623",
+    "056c1459-4595-484d-9b93-48f2669266c1"
+  ]
+}
