@@ -38,7 +38,7 @@
     "custom_font_script_3": "",
     "custom_font_family_3": "",
     "display_color_variant": true,
-    "display_item_size": true,
+    "display_item_size": false,
     "enable_timer": true,
     "enable_wishlist": false,
     "enable_compare": false,
