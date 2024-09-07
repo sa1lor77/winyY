@@ -1641,8 +1641,10 @@ ul ul {
   }
 
   .grid--4-col-desktop .grid__item {
-    width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
-    max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+    width: calc(30.33% - var(--grid-desktop-horizontal-spacing)* 2 / 3);
+    max-width: calc(31.33% - var(--grid-desktop-horizontal-spacing)* 2 / 3);
+    /* width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3); */
+    /* max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3); */
   }
 
   .grid--3-col-desktop .grid__item {
