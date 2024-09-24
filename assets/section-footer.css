@@ -512,6 +512,13 @@ noscript .localization-selector.link {
   color: rgba(var(--color-foreground), 0.75);
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__item--872fb711-49d8-4e35-bc16-d8e2e3131ec4.footer-block {
+    width: calc(15% - calc(var(--grid-desktop-horizontal-spacing) / 2)) !important;
+    max-width: calc(20% - calc(var(--grid-desktop-horizontal-spacing) / 2)) !important;
+  }
+}
+
 .footer .disclosure__link:hover {
   color: rgb(var(--color-foreground));
 }

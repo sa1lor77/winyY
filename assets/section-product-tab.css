@@ -439,9 +439,9 @@
 }
 .custom-product-tab.product-tab-wrapper .collection .tabs .tablinks:hover,
 .custom-product-tab.product-tab-wrapper .collection .tabs .tablinks.active {
-  color: var(--gradient-base-accent-1);
+  color: var(--gradient-base-accent-1) !important;
   /* background: transparent; */
-  background-color: yellow;
+  background-color: yellow !important;
   border: 2px solid transparent;
 }
 .custom-product-tab.product-tab-wrapper

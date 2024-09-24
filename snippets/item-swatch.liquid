@@ -41,7 +41,7 @@
         {% else %}
         data-image="{{ product.featured_media | image_url: width: 360 }}"{% endif %}           
         {%- if variant.image != blank -%}
-        style="background-size: cover;background-color: {{- colorName -}};background-image: url('{{ variant.image | image_url: width: 460 }}'); background-repeat: no-repeat;"        
+        style="background-size: cover;background-color: {{- colorName -}};background-image: none; background-repeat: no-repeat;"        
         {%- else -%}
         style="background-size: cover;background-color: {{- colorName -}};background-image: url({{ colorFileURL }}); background-repeat: no-repeat;"
         {%- endif -%}  
