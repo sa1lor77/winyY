@@ -769,12 +769,14 @@
                                 {%- else block.settings.picker_method == 'variant_image' -%} 
                                 
                                 <div data-value="{{ value | escape }}" class="swatch-element">
+
                                 <div class="tooltip">
                                 <label
                                 for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                                 class="swatch-variant-text"
                                 >{{ value | escape }}</label>
                                 </div>
+
                                 <label
                                 for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                                 class="swatch-variant-image "
@@ -883,6 +885,8 @@
                                    -%}
                                 {%- if block.settings.picker_method == 'custom_color' -%}
                                  <div data-value="{{ value | escape }}" class="swatch-element">  
+
+
                                 <div class="tooltip">
                                 <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="swatch-variant-text">{{ value | escape }}</label>
                                 </div>
@@ -896,12 +900,16 @@
                                 {%- else block.settings.picker_method == 'variant_image' -%} 
                                 
                                 <div data-value="{{ value | escape }}" class="swatch-element">
+
+                                
                                 <div class="tooltip">
                                 <label
                                 for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                                 class="swatch-variant-text"
                                 >{{ value | escape }}</label>
                                 </div>
+
+
                                 <label
                                 for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                                 class="swatch-variant-image "

@@ -2184,11 +2184,11 @@ label.swatch-variant-image {
   transition: all 0.3s linear;
   border: 1px solid transparent;
 }
-.swatch-group .swatch-element:hover .tooltip {
-  opacity: 1;
+/* .swatch-group .swatch-element:hover .tooltip {
+  opacity: 0;
   visibility: visible;
   transform: translateX(-50%);
-}
+} */
 .swatch-group .tooltip:before {
   content: "";
   position: absolute;
