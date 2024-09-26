@@ -306,7 +306,7 @@
               "heading": "",
               "subtext": "",
               "button_text": "Sign Up Now",
-              "button_link": "https://dt-stylix.myshopify.com/account/register",
+              "button_link": "/account/register",
               "show_social": true,
               "alignment": "center",
               "column_width": 10
